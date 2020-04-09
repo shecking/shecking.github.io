@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Agency v5.2.2 (https://startbootstrap.com/template-overviews/agency)
- * Copyright 2013-2019 Start Bootstrap
+ * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
 
@@ -107,15 +107,6 @@ img::-moz-selection {
   box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
 }
 
-@media (min-width: 400px) {
-  .headshot {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
-  }
-}
-
 #mainNav {
   background-color: #212529;
 }
@@ -210,11 +201,11 @@ header.masthead .intro-text .intro-heading {
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
+.headshot {
+  padding-top: 100px;
+}
+
 @media (min-width: 768px) {
-  header.masthead .intro-text {
-    padding-top: 300px;
-    padding-bottom: 200px;
-  }
   header.masthead .intro-text .intro-lead-in {
     font-size: 40px;
     font-style: italic;
@@ -577,7 +568,7 @@ header.masthead .intro-text .intro-heading {
   text-align: center;
 }
 
-.team-member {
+.team-member img {
   width: 225px;
   height: 225px;
   border: 7px solid rgba(0, 0, 0, 0.1);
@@ -675,6 +666,7 @@ ul.social-buttons {
 }
 
 ul.social-buttons li a {
+  float: left;
   font-size: 20px;
   line-height: 50px;
   display: block;
