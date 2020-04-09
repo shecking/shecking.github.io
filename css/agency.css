@@ -181,7 +181,8 @@ header.masthead {
 }
 
 header.masthead .intro-text {
-  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 header.masthead .intro-text .intro-lead-in {
