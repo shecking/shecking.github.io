@@ -229,13 +229,9 @@ header.masthead .intro-text .intro-heading {
   }
 }
 
-.service-box {
-  max-width: 400px;
-}
-
-.service-heading {
-  margin: 15px 0;
-  text-transform: none;
+.personal-links {
+  font-size: 24px;
+  font-weight: 700;
 }
 
 #portfolio .portfolio-item {
@@ -321,7 +317,7 @@ header.masthead .intro-text .intro-heading {
 
 .portfolio-modal .modal-content {
   padding: 100px 0;
-  text-align: center;
+  text-align: left;
 }
 
 .portfolio-modal .modal-content h2 {
@@ -386,6 +382,19 @@ header.masthead .intro-text .intro-heading {
   /* IE 9 */
   transform: rotate(90deg);
   background-color: #212529;
+}
+
+.project-link {
+  text-align: center!important;
+}
+
+.service-box {
+  max-width: 400px;
+}
+
+.service-heading {
+  margin: 15px 0;
+  text-transform: none;
 }
 
 section#contact {
@@ -463,6 +472,9 @@ section#contact :-ms-input-placeholder {
   margin-bottom: 0;
   text-transform: none;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+ul.list-inline {
+  text-align: center!important;
 }
 
 ul.social-buttons {
