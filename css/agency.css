@@ -225,6 +225,10 @@ header.masthead .intro-text .intro-heading {
   }
 }
 
+.service-box {
+  max-width: 400px;
+}
+
 .service-heading {
   margin: 15px 0;
   text-transform: none;
@@ -378,6 +382,10 @@ header.masthead .intro-text .intro-heading {
   /* IE 9 */
   transform: rotate(90deg);
   background-color: #212529;
+}
+
+.text-center {
+  text-align: center!important;
 }
 
 .timeline {
@@ -564,27 +572,6 @@ header.masthead .intro-text .intro-heading {
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 100px 20px 20px;
   }
-}
-
-.team-member {
-  margin-bottom: 50px;
-  text-align: center;
-}
-
-.team-member img {
-  width: 225px;
-  height: 225px;
-  border: 7px solid rgba(0, 0, 0, 0.1);
-}
-
-.team-member h4 {
-  margin-top: 25px;
-  margin-bottom: 0;
-  text-transform: none;
-}
-
-.team-member p {
-  margin-top: 0;
 }
 
 section#contact {
