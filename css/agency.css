@@ -209,7 +209,7 @@ header.masthead .intro-text .intro-heading {
 @media (min-width: 400px){
   header.masthead .headshot {
     margin-top: 100px;
-    border: 3px #fed136;
+    border: 3px solid #fed136;
   }
 }
 
