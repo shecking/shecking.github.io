@@ -210,6 +210,7 @@ header.masthead .intro-text .intro-heading {
   header.masthead .headshot {
     margin-top: 100px;
     border: 3px solid #fed136;
+    border-radius: 50%;
   }
 }
 
