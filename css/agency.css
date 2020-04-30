@@ -36,8 +36,8 @@ h6 {
 }
 
 .page-section {
-  background-color: #212121;
-  font: #fff;
+  background-color: #212121 !important;
+  font: #fff !important;
   padding: 50px 0;
 
 }
